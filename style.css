@@ -1,0 +1,91 @@
+body, ul, li, P{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+
+.logo{
+    width: 300px;
+}
+
+a{
+    text-decoration: none;
+    color: white ;
+}
+
+.header{
+    background-color: #a7d2d1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu{
+    display: flex;
+}
+   
+.menu li  {
+    margin-left: 10px;
+}
+    
+.menu li a {
+    display:block;
+    padding: 10px;
+    background-color: #40a5ac;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.paragrafo {
+    padding: 7px;
+    text-align: justify;
+}
+
+.imagem {
+    height: auto;
+    width: 350px;
+}
+
+.flex{
+    min-width: 100vh;
+    background-color: #61ae32;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item{
+    border: 5px solid black;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #a7d2d1;
+    padding: 15px;
+    color: black;
+    font-size: 30px;
+}
+
+.redesSociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redeLogo {
+    margin: 10px;
+    padding: 5px;
+    width: 30px;
+    height: auto;
+}
